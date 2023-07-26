@@ -1,0 +1,11 @@
+.title__subsection{
+    line-height: normal;
+    font-size: 1.3rem;
+    color: var(--cor-de-texto);
+}
+
+@media(max-width:745px){
+    .title__subsection{
+        font-size: 1.1rem;
+    }
+}

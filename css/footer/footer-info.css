@@ -1,0 +1,5 @@
+.footer__info{
+    text-align: center;
+    color: var(--cor-de-titulos);
+    font-weight: bold;
+}

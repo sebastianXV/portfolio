@@ -1,0 +1,7 @@
+.academic__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 10rem;
+}

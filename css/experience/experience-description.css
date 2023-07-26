@@ -1,0 +1,16 @@
+.experience__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;  
+    gap: 1rem;
+  
+}
+
+
+@media(max-width:480px){
+    .experience__description {
+        flex-wrap: wrap;
+    }
+}

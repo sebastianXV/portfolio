@@ -1,0 +1,9 @@
+.hobbies{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hobbies__title{
+    font-size: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.experience__box{
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    height: 60%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    border: 1px solid var(--cor-border);
+
+}
+
+@media(max-width:1040px) {
+    .experience__box{
+        max-width: 100%;
+    }
+    
+}
+
+

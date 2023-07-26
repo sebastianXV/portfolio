@@ -1,0 +1,20 @@
+.contact {
+    min-height: 100vh;
+    background: var(--cor-de-section);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 3rem 0rem;
+
+}
+
+
+
+
+
+
+
+
+

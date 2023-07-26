@@ -1,0 +1,25 @@
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.contact__subtext {
+    color: white;
+}
+
+
+.formcontato__input {
+    height: 2.5rem;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+}
+
+.formcontato__textarea {
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+}

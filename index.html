@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/menu/menu.css">
+    <link rel="stylesheet" href="css/menu/menu-header.css">
+    <link rel="stylesheet" href="css/menu/menu-list.css">
+    <link rel="stylesheet" href="css/menu/menu-list-item-contato.css">
+    <link rel="stylesheet" href="css/menu/menu-list-item.css">
+
+    <link rel="stylesheet" href="css/title/title.css">
+    <link rel="stylesheet" href="css/title/title-container.css">
+    <link rel="stylesheet" href="css/title/title-network.css">
+    <link rel="stylesheet" href="css/title/title-bio-name.css">
+    <link rel="stylesheet" href="css/title/title-sub-section.css">
+    <link rel="stylesheet" href="css/title/title-bio-img.css">
+    <link rel="stylesheet" href="css/menu/menu-button.css">
+
+    <link rel="stylesheet" href="css/about/about.css">
+    <link rel="stylesheet" href="css/about/about-container.css">
+    <link rel="stylesheet" href="css/about/about-title.css">
+    <link rel="stylesheet" href="css/about/about-paragraph.css">
+    <link rel="stylesheet" href="css/about/about-button.css">
+
+    <link rel="stylesheet" href="css/skills/skills.css">
+    <link rel="stylesheet" href="css/skills/skills-container.css">
+    <link rel="stylesheet" href="css/skills/skills-line.css">
+    <link rel="stylesheet" href="css/skills/skills-box.css">
+    <link rel="stylesheet" href="css/skills/skills-title.css">
+    <link rel="stylesheet" href="css/skills/skills-name.css">
+
+
+    <link rel="stylesheet" href="css/hobbies/hobbies.css">
+    <link rel="stylesheet" href="css/hobbies/hobbies-line.css">
+    <link rel="stylesheet" href="css/hobbies/hobbies-box.css">
+
+    <link rel="stylesheet" href="css/academic/academic.css">
+    <link rel="stylesheet" href="css/academic/academic-title.css">
+    <link rel="stylesheet" href="css/academic/academic-courses-box.css">
+    <link rel="stylesheet" href="css/academic/academic-courses-list.css">
+    <link rel="stylesheet" href="css/academic/academic-courses.css">
+    <link rel="stylesheet" href="css/academic/academic-container.css">
+    <link rel="stylesheet" href="css/academic/academic-info.css">
+    <link rel="stylesheet" href="css/academic/academic-course-item-img.css">
+
+    <link rel="stylesheet" href="css/experience/experience.css">
+    <link rel="stylesheet" href="css/experience/experience-drawer.css">
+    <link rel="stylesheet" href="css/experience/experience-box.css">
+    <link rel="stylesheet" href="css/experience/experience-info.css">
+    <link rel="stylesheet" href="css/experience/experience-img.css">
+    <link rel="stylesheet" href="css/experience/experience-icon.css">
+    <link rel="stylesheet" href="css/experience/experience-description.css">
+    <link rel="stylesheet" href="css/experience/experiencie-info-title.css">
+    <link rel="stylesheet" href="css/experience/experience-button.css">
+
+    <link rel="stylesheet" href="css/contact/formcontact.css">
+    <link rel="stylesheet" href="css/contact/contacto.css">
+    <link rel="stylesheet" href="css/contact/contact-title.css">
+    <link rel="stylesheet" href="css/contact/contact-icons.css">
+    <link rel="stylesheet" href="css/contact/contact-form.css">
+    <link rel="stylesheet" href="css/contact/contact-button.css">
+    <link rel="stylesheet" href="css/contact/contact-subtext.css">
+
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/footer/footer-container.css">
+    <link rel="stylesheet" href="css/footer/footer-icons.css">
+    <link rel="stylesheet" href="css/footer/footer-info.css">
+
+    <title> Mi Portafolio</title>
+</head>
+
+<body class="" id="body">
+
+    <!-- Sección del Menú  -->
+    <section class="menu">        
+        <nav id="navbar">
+            <header class="menu__header margen-global">
+                <ul class="menu__list" id="lista">
+                    <li class="menu__list__item"><a href="#about" id="item" onclick="burgerAfter()">Sobre mi</a></li>
+                    <li class="menu__list__item"><a href="#skills" id="item" onclick="burgerAfter()">Habilidades</a></li>
+                    <li class="menu__list__item"><a href="#formacion" id="item" onclick="burgerAfter()">Formación</a></li>
+                    <li class="menu__list__item"><a href="#xp" id="item" onclick="burgerAfter()">Proyectos</a></li>
+                    <li class="menu__list__item"><a href="#contacto" id="item" onclick="burgerAfter()">Contacto</a></li>
+                    <img src="assets/icons/tema.svg" type="checkbox" id="dark-mode-toggle" onclick="toggleDarkMode()">
+                </ul>
+
+                <img class="menu__burger" src="assets/icons/menu.svg" alt="" id="burger" onclick="burgerAfter()">
+            </header>
+        </nav>
+    </section>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title " id="title">
+        <div class="title__container margen-global">
+            <h1 class="title__bio ">Hola, soy <span class="title__bio__name"> Sebastian Rojas</span> <img
+                    class="bio__img" src="assets/icons/IconPersonal.png" alt="" style="vertical-align: bottom;"></h1>
+            <h3 class="title__subsection">Desarrollador Front end Trainee con gran interes en aprender las tecnologias
+                actuales y
+                en camino a convertirme en un Desarrollador Full-Stack
+            </h3>
+            <ul class="title__network">
+                <li class="title__network__item "><a href="https://github.com/sebastianXV"><img
+                            src="assets/icons/github.png"></a></li>
+                <li class="title__network__item"><a href="https://www.linkedin.com/in/sebastian-rojas-2ba603245"> <img
+                            src="assets/icons/linkedin.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección sobre mi -->
+    <section class="about night-theme" id="about">
+        <div class="about__container  margen-global ">
+            <h1 class="about__title">Sobre mi</h1>
+            <p class="about__paragraph">Desde que recibí clases de programación en mi formación secundaria no he parado
+                de aprender sobre este mundo, inicialmente con un enfoque general y técnico sobre el desarrollo de
+                software en mi formación superior y todo lo que conlleva trabajar en equipo bajo las distintas
+                metodologías de desarrollo, últimamente me he direccionado un poco más hacia el Front-end desarrollando
+                proyectos con las tecnologías fundaméntales; sin embargo, en un futuro también quiero aprender más del
+                back-end.
+
+            </p>
+
+            <a href="#contacto"><button class="about__button">Contactame<img src="assets/icons/envia.png"
+                        alt=""></button> </a>
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+
+        <div class="skills__container margen-global">
+            <h1 class="skills__title ">Tecnologias y Librerias</h1>
+            <div class="skills__line">
+
+                <div class="skills__box hvr-float-shadow">
+                    <ul>
+                        <li class="skills__img"><img src="assets/icons/HTML.png"></li>
+
+                    </ul>
+                </div>
+
+                <div class="skills__box hvr-float-shadow">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/icons/CSS.png" alt=""> </li>
+                    </ul>
+                </div>
+
+                <div class="skills__box hvr-float-shadow">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/icons/Sass.png" alt=""> </li>
+                    </ul>
+                </div>
+
+                <div class="skills__box hvr-float-shadow">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/icons/javascript.png" alt=""></li>
+                    </ul>
+                </div>
+
+                <div class="skills__box hvr-float-shadow">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/icons/bootstrap.png" alt=""> </li>
+                    </ul>
+                </div>
+
+                <div class="skills__box hvr-float-shadow">
+                    <ul>
+                        <li class="skills__img"> <img src="assets/icons/Githubb.png" alt=""> </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+
+        <div class="academic__container  margen-globa">
+            <h1 class="academic__title">Formación académica</h1>
+
+            <div class="academic__courses">
+
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <a href="https://sofiaplus-edu.com/tecnico-sistemas-sena/">
+                            <li class="academic__courses__item__img --sena"></li>
+
+                    </ul>
+                    </a>
+                    <div class="academic__info">
+                        <li class="academic__courses__item__title">
+
+                            <h4>Tecnico en Sistemas</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2019 - 2020</p>
+                        </li>
+                    </div>
+
+                </div>
+
+
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <a href="https://sofiaplus-edu.com/tecnico-sistemas-sena/">
+                            <li class="academic__courses__item__img --iu"></li>
+
+                    </ul>
+                    </a>
+                    <div class="academic__info">
+                        <li class="academic__courses__item__title">
+
+                            <h4>Desarrollador de Software</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2021 - 2024</p>
+                        </li>
+                    </div>
+
+                </div>
+
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <a href="https://sofiaplus-edu.com/tecnico-sistemas-sena/">
+                            <li class="academic__courses__item__img --alura"></li>
+
+                    </ul>
+                    </a>
+                    <div class="academic__info">
+                        <li class="academic__courses__item__title">
+
+                            <h4>Desarrollador Front-End</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2023</p>
+                        </li>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience margen-global" id="xp">
+        <h1 class="experience__section__title">Proyectos</h1>
+        <div class="experience__drawer">
+            <div class="experience__box">
+                <a href="https://sebastianxv.github.io/course-website/"> <img class="experience__img"
+                        src="assets/web.png" alt="">
+                </a>
+
+                <div class="experience__description">
+                    <h2 class="experience__title">Web de Cursos</h2>
+                    <div class="experience__icons">
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+                    </div>
+
+                    <div class="buttons">
+                        <a href="https://github.com/sebastianXV/Challenge-Encriptador">
+                            <button class="experience__button">Repositório</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__box">
+                <a href="https://sebastianxv.github.io/Challenge-Encriptador/">
+
+                    <img class="experience__img" src="assets/Encriptador.png" alt="">
+                </a>
+                <div class="experience__description">
+                    <h2 class="experience__title">Encriptador de texto</h2>
+                    <div class="experience__icons">
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+
+                        <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"
+                            alt="">
+                    </div>
+
+                    <div class="buttons">
+                        <a href="https://github.com/sebastianXV/Challenge-Encriptador">
+                            <button class="experience__button">Repositório</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__box">
+                <a href="https://sebastianxv.github.io/Challenge-Encriptador/">
+
+                    <img class="experience__img" src="assets/Portfolio.png" alt="">
+                </a>
+                <div class="experience__description">
+                    <h2 class="experience__title">Portfolio Personal</h2>
+                    <div class="experience__icons">
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+                    </div>
+
+                    <div class="buttons">
+                        <a href="https://github.com/sebastianXV/Challenge-Encriptador">
+                            <button class="experience__button">Repositório</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="experience__box">
+                <a href="https://sebastianxv.github.io/playstation-bootstrap/">
+
+                    <img class="experience__img" src="assets/Ps-bootstrap.png" alt="Ps-bootstrap">
+                </a>
+                <div class="experience__description">
+                    <h2 class="experience__title">Playstation</h2>
+                    <div class="experience__icons">
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+
+                        <img class="experience__icon"
+                            src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+                    </div>
+
+                    <div class="buttons">
+                        <a href="https://github.com/sebastianXV/playstation-bootstrap">
+                            <button class="experience__button">Repositório</button></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contact" id="contacto">
+        <h1 class="contact__title">Contacto</h1>
+        <div class="contact__container margen-global">
+            <form class="contact__form" name="form" id="formulario"
+                action="https://formsubmit.co/sebastian111634420@gmail.com" method="POST">
+                <h3 class="contact__subtext">LLena este formulario para ponerte en contacto conmigo</h3>
+                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required>
+                <input class="formcontato__input" type="email" name="email" placeholder="Email" required>
+                <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required>
+                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                    placeholder="Mensaje" required></textarea>
+                <button type="submit" class="contact__button">Enviar mensaje</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <footer class="">
+
+        <div class="footer__container">
+            <div class="footer__icons margen-global">
+                <div class="footer__icon"> <a href="https://www.linkedin.com/in/sebastian-rojas-2ba603245"></a><img
+                        src="assets/icons/linkedin.png" alt=""></div>
+                <div class="footer__icon"> <a href="https://github.com/sebastianXV"><img
+                            src="assets/icons/github.png"></a></div>
+
+            </div>
+            <p class="footer__info margen-global">
+                "Espera siempre lo mejor y preparate para lo peor" &#127808
+                <img src="" alt="" class="footer__icon">
+
+        </div>
+
+
+
+    </footer>
+    
+    <!-- Script del documento JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

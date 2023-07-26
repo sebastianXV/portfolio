@@ -1,0 +1,9 @@
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-de-titulos);
+    padding: 2rem 0;
+    flex-direction: column;
+    gap: 2rem
+}

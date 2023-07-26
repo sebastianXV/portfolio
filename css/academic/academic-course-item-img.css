@@ -1,0 +1,27 @@
+.--sena {
+    background: url('../../assets/sena.png');
+}
+
+.--iu {
+    background: url('../../assets/iu.png');
+
+}
+
+.--alura {
+    background: url('../../assets/alura_logo.svg');
+}
+
+.--internet {
+    background: url('../../assets/internet.jpg');
+}
+
+
+.academic__courses__item__img {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 2rem;
+}
+

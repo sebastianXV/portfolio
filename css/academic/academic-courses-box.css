@@ -1,0 +1,18 @@
+
+.academic__courses__box{
+    display: flex;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Sombra de la tarjeta */
+    background-color: rgb(242, 242, 242);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.academic__courses__box:hover{
+    cursor: pointer;
+    filter: brightness(50%);
+    transition: .4s;
+}
+
+
+

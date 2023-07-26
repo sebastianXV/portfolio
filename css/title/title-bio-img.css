@@ -1,0 +1,10 @@
+@media(max-width:840px){
+    .bio__img{
+
+        display: none;
+    }
+}
+
+.title__bio{
+    justify-content: left;
+}

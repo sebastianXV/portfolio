@@ -1,0 +1,5 @@
+.title__network{
+    display: flex;
+    align-self: flex-start;
+    gap: 2rem;
+}

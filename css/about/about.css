@@ -1,0 +1,8 @@
+.about{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    border-bottom: 1px solid var(--cor-border);
+    background-color: rgb(28, 99, 97);
+    padding: 3rem 0;
+}

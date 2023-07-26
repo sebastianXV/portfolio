@@ -1,0 +1,12 @@
+.experience__icons {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(max-width: 430px) {
+    .experience__icons {
+        display: none;
+    }
+}

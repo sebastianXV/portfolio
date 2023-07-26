@@ -1,0 +1,117 @@
+:root {
+    --cor-de-fundo: #fff;
+    --cor-de-link: #464646;
+    --cor-hover: #5ac8c8;
+    --cor-de-button: #2c7a7b;
+    --cor-de-titulos: #2D3748;
+    --cor-principal: #319795;
+    --cor-border: #E2E8F0;
+    --cor-de-texto: #718096;
+    --cor-de-textbutton: #464646;
+    --cor-de-section: #319795;
+    --cor-de-contraste: #ffffff;
+    --cor-de-section: rgb(28, 99, 97);
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+}
+
+h1 {
+    font-size: 3em;
+    color: var(--cor-de-titulos);
+}
+
+h2 {
+    font-size: 2.5em;
+    color: var(--cor-de-titulos);
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: normal;
+    color: var(--cor-de-titulos);
+}
+
+@media(max-width:745px) {}
+
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.night-theme {
+    --cor-de-fundo: rgb(26, 32, 44);
+    --cor-de-link: rgb(237, 242, 247);
+    --cor-hover: rgb(79, 209, 196);
+    --cor-de-titulos: rgb(237, 242, 247);
+    --cor-de-texto: rgb(160, 174, 192);
+    --cor-de-contraste: #2D3748;
+    --cor-secundario: #FF822D;
+    --cor-border: #065760;
+
+}
+
+.margen-global {
+    margin: 0rem 10rem;
+}
+
+.selected{
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .margen-global {
+        margin: 0rem 6rem;
+    }
+
+
+}
+
+@media (max-width: 745px) {
+
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.5;
+    }
+    .margen-global{
+        margin: 0rem 3rem;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+
+    h1 {
+        font-size: 2em;
+    }
+    .margen-global{
+        margin: 0rem 3rem;
+    }
+
+}

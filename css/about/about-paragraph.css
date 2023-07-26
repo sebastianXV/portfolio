@@ -1,0 +1,5 @@
+.about__paragraph {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: var(--cor-de-texto);
+}

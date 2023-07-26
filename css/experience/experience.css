@@ -1,0 +1,12 @@
+.experience{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--cor-de-fundo);
+    padding-bottom: 4rem;
+
+}
+

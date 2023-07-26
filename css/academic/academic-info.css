@@ -1,0 +1,9 @@
+.academic__info{
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-de-contraste);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: var(--cor-de-texto);
+}

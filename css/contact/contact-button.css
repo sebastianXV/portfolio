@@ -1,0 +1,27 @@
+.contact__button {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--cor-principal);
+    padding: 1rem;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .5s;
+    width: 50%;
+    align-self: center;
+}
+
+.contact__button:hover {
+    background-color: var(--cor-de-button);
+    cursor: pointer;
+}
+
+@media(max-width:420px){
+    .contact__button{
+        width: 100%;
+        font-size:small;
+    }
+}

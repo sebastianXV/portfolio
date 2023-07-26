@@ -1,0 +1,5 @@
+.menu{
+    padding-top: 1rem;
+    background-color: var(--cor-de-fundo);
+    transition: clip-path 4s;
+}
