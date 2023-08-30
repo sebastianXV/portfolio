@@ -81,6 +81,10 @@ a {
     cursor: pointer;
 }
 
+#send{
+    background-color: var(--cor-principal);
+}
+
 
 
 @media (max-width: 1024px) {
